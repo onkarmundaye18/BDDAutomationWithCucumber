@@ -13,12 +13,12 @@ The framework has following features
 7. Hooks for scenario start up.
 
 ## Setup Project at Your End
-- **Clone Repository using "git clone" ** 
+- **Clone Repository using git clone** 
 - **Run mvn clean test at project level (where you keep pom.xml )** 
 
 ## Directory Structure
 Directory structure overview from IntelliJ:
-![Directory-Structure](https://github.com/onkarmundaye18/BDDAutomationWithCucumber/blob/DirectoryStructure.JPG)
+![Directory-Structure](https://github.com/onkarmundaye18/BDDAutomationWithCucumber/blob/master/blob/DirectoryStructure.JPG)
 
 ### Prerequisites
 
