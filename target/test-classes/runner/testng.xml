@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="BDD Test Suite" verbose="1">-->
+    <suite name="BDD Test Suite" verbose="1" parallel="tests" thread-count="2" configfailurepolicy="continue">
+
+   <!-- <listeners>
+
+        <listener
+                class-name="ExtentListeners"></listener>
+
+    </listeners>-->
+
+    <test name="TestRunner Test" preserve-order="true">
+        <classes>
+            <class name="com.testRunner.TestRunner"/>
+        </classes>
+    </test>
+
+    <!--<test name="RunCucumber Test" preserve-order="true">
+        <classes>
+            <class name="com.testRunner.RunCucumber"/>
+        </classes>
+    </test>-->
+</suite>
