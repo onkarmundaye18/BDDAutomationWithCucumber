@@ -75,7 +75,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4065618224,
+  "duration": 6297326699,
   "status": "passed"
 });
 formatter.scenario({
@@ -120,8 +120,9 @@ formatter.match({
   ],
   "location": "AutomationGuildSteps.automationguild_Website_is_opened(String)"
 });
+formatter.embedding("image/png", "embedded0.png");
 formatter.result({
-  "duration": 17884692452,
+  "duration": 7427969200,
   "status": "passed"
 });
 formatter.match({
@@ -137,20 +138,21 @@ formatter.match({
   ],
   "location": "AutomationGuildSteps.user_logged_in_with_below_and(String,String)"
 });
+formatter.embedding("image/png", "embedded1.png");
 formatter.result({
-  "duration": 23747174120,
+  "duration": 7992749800,
   "status": "passed"
 });
 formatter.match({
   "location": "AutomationGuildSteps.automationguild_Home_Page_should_opened()"
 });
 formatter.result({
-  "duration": 82614978,
+  "duration": 44490600,
   "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png");
+formatter.embedding("image/png", "embedded2.png");
 formatter.after({
-  "duration": 3621730070,
+  "duration": 1356161900,
   "status": "passed"
 });
 formatter.uri("guildLoginPage.feature");
@@ -168,7 +170,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 3310790566,
+  "duration": 5572448900,
   "status": "passed"
 });
 formatter.scenario({
@@ -198,20 +200,22 @@ formatter.match({
   ],
   "location": "AutomationGuildSteps.automationguild_Website_is_opened(String)"
 });
+formatter.embedding("image/png", "embedded3.png");
 formatter.result({
-  "duration": 19420770308,
+  "duration": 7634807200,
   "status": "passed"
 });
 formatter.match({
   "location": "AutomationGuildSteps.automationguild_login_page_should_opened_by_default()"
 });
+formatter.embedding("image/png", "embedded4.png");
 formatter.result({
-  "duration": 31343036,
+  "duration": 423404300,
   "status": "passed"
 });
-formatter.embedding("image/png", "embedded1.png");
+formatter.embedding("image/png", "embedded5.png");
 formatter.after({
-  "duration": 1193817042,
+  "duration": 1501124000,
   "status": "passed"
 });
 });

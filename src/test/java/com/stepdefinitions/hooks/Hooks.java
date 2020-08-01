@@ -9,6 +9,15 @@ import org.openqa.selenium.WebDriverException;
 
 public class Hooks {
     WebDriverManager driverManager;
+    public static ThreadLocal <Scenario> currentScenario =new ThreadLocal<>();
+
+    public static Scenario getScenario(){
+        return currentScenario.get();
+    }
+
+    public static void setScenario(Scenario scenario){
+        currentScenario.set(scenario);
+    }
 
   /*  public Hooks() {
         *//*System.out.println("Hooks getting start!!!");
@@ -32,6 +41,7 @@ public class Hooks {
        // ExtentListeners.testReport.get().info(scenario.getName() + " is started");
         driverManager =  new WebDriverManager();
         driverManager.createDriver();
+        setScenario(scenario);
     }
 
     @After

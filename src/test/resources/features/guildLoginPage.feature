@@ -10,6 +10,6 @@ Feature: This feature is about testing automation guild login page functionality
 #    When user logged in with below "<username>" and "<password>"
 #    Then AutomationGuild Home Page should be displayed
 #    Examples:
-#      | username      | password       |
-#      | onkar.mundaye | pinkdlrscoe@18 |
-#      | onkar.mundaye | pinkdlrscoe@1  |
+#      | username      | password  |
+#      | onkar.mundaye | rpgrpg@18 |
+#      | onkar.mundaye | rpgrpg@1  |
